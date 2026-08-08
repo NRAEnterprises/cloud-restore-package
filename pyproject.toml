@@ -14,3 +14,7 @@ cloud_restore = "cloud_restore.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[project.urls]
+"Homepage" = "https://github.com/NRAEnterprises/cloud-restore-package"
+"Repository" = "https://github.com/NRAEnterprises/cloud-restore-package"
