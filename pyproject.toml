@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cloud-restore"
+version = "1.0.0"
+description = "Generic backup/restore for any local directory to a remote host or cloud service, via rsync or rclone. Standalone — no dependency on any other package."
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+cloud_restore = "cloud_restore.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
