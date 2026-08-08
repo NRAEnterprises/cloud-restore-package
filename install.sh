@@ -9,7 +9,7 @@
 
 set -eu
 
-REPO_URL="${CLOUD_RESTORE_REPO_URL:-https://github.com/CHANGE_ME/cloud_restore/archive/refs/heads/main.tar.gz}"
+REPO_URL="${CLOUD_RESTORE_REPO_URL:-https://github.com/NRAEnterprises/cloud-restore-package/archive/refs/heads/main.tar.gz}"
 
 have_cmd() {
     command -v "$1" >/dev/null 2>&1
