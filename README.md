@@ -1,2 +1,2 @@
-# cloud-restore-package
-cloud restore package
+# cloud-restore
+cloud restore
